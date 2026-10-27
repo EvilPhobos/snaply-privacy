@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snaply — Privacy Policy</title>
+<meta name="description" content="Privacy Policy of Snaply, a free app that checks and fits document photos on your device.">
+<style>
+  :root {
+    --bg: #1A1B2D; --surface: #26272F; --border: #363845; --accent: #9973FF;
+    --text: #FFFFFF; --muted: #9E9EA8; --warn: #FFC107;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background-image: radial-gradient(circle at 0 0, rgba(124, 77, 255, 0.35), transparent 420px);
+    background-repeat: no-repeat;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 28px; margin: 0; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 8px 0 24px; }
+  .lang button {
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+    border-radius: 15px; padding: 6px 14px; font: inherit; font-size: 14px; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { color: var(--text); border-color: var(--accent); background: rgba(124, 77, 255, 0.25); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  .note { color: var(--warn); }
+  [hidden] { display: none !important; }
+  @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 4px 0; } tr { border-bottom: 1px solid var(--border); padding: 8px 0; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Snaply</h1>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="uk" aria-pressed="false">Українська</button>
+    </div>
+  </header>
+
+  <!-- English -->
+  <article lang="en" data-lang="en">
+    <h2 style="margin-top:16px">Privacy Policy</h2>
+    <p class="meta">Effective date: 27 October 2026 · App: Snaply (Android <code>com.evilphobos.snaply</code>) · Developer: EvilPhobos</p>
+    <p>Snaply helps you prepare document photos (for example, for the U.S. Diversity Visa lottery) that meet official requirements. It is built so that your photos and documents stay on your device.</p>
+
+    <div class="card">
+      <strong>Short version</strong>
+      <ul>
+        <li>Photos and document scans are processed <strong>only on your device</strong> and are <strong>never uploaded</strong> by the app.</li>
+        <li><strong>No ads, no analytics, no tracking, no accounts.</strong> We don't sell or share data.</li>
+        <li>The app uses the internet <strong>only when you ask it to</strong>: opening an official link, checking for requirement updates, or sending feedback.</li>
+      </ul>
+    </div>
+
+    <h2>What the app processes and where</h2>
+    <table>
+      <thead><tr><th>Data</th><th>What happens</th><th>Leaves the device?</th></tr></thead>
+      <tbody>
+        <tr><td>Camera images and photos you pick</td><td>Analyzed on the device (face position, background, sharpness) by an on-device face detector (Google ML Kit, bundled model). The fitted photo is saved or shared only when you tap "Save" or "Share". Temporary copies in the app cache are deleted when you leave the check screen.</td><td><strong>No</strong></td></tr>
+        <tr><td>Passport/document scans you pick</td><td>Checked on the device (file type, size, readability) and, if you ask, converted to an accepted file. Kept in memory only; the temporary copy is deleted right away.</td><td><strong>No</strong></td></tr>
+        <tr><td>Settings (language, theme, chosen document, camera, auto shutter)</td><td>Stored on the device.</td><td>No</td></tr>
+        <tr><td>Technical log</td><td>A local file with app version, device model, OS version, language, theme, and technical events/errors. It contains no photos, no file names of your photos, no passport numbers and no feedback text.</td><td>Only if <strong>you</strong> share it</td></tr>
+      </tbody>
+    </table>
+
+    <h2>When the app uses the internet</h2>
+    <ul>
+      <li><strong>Official links</strong> — opening a link starts your browser; the website's own privacy policy applies.</li>
+      <li><strong>"Check for profile updates"</strong> — downloads requirement files from the project's repository on GitHub. Like any web request, GitHub receives your IP address and basic request data. No personal data is sent.</li>
+      <li><strong>Feedback</strong> — when you send the in-app feedback form, the following goes to a Google Form owned by the developer: the request type, your message, your email if you enter one (optional), and, if you keep the "Attach technical log" box checked, the latest part of the technical log described above. You can see exactly what will be sent before sending. Google processes this data under its own privacy policy.</li>
+      <li><strong>"Share log"</strong> — opens your system share sheet; the log goes only where you send it.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Camera</strong> — to take the photo. Used only while the camera screen is open.</li>
+      <li><strong>Internet</strong> — only for the actions listed above.</li>
+      <li><strong>Storage (Android 10 and older only)</strong> — to save the finished photo to your gallery.</li>
+    </ul>
+    <p>The app does not request the microphone, location, contacts or read access to your files (photos are chosen with the system photo picker).</p>
+
+    <h2>Children</h2>
+    <p>Snaply is intended for adults preparing official documents. It doesn't knowingly collect any data from children.</p>
+
+    <h2>Your choices</h2>
+    <p>All processing is local, so there is nothing stored on our side to access or delete, except feedback you chose to send. To remove a feedback message, send a request through the feedback form mentioning the approximate date.</p>
+
+    <h2>Not an official app</h2>
+    <p class="note">Snaply is not affiliated with the U.S. Department of State or any other government agency. Applications are submitted only on official websites.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Use the in-app Feedback form (Settings → About &amp; support → Feedback) or <a href="https://forms.gle/TZw4MLuqui3Gw4Mx7">this form</a>.</p>
+  </article>
+
+  <!-- Українська -->
+  <article lang="uk" data-lang="uk" hidden>
+    <h2 style="margin-top:16px">Політика конфіденційності</h2>
+    <p class="meta">Набуває чинності: 27 жовтня 2026 · Застосунок: Snaply (Android <code>com.evilphobos.snaply</code>) · Розробник: EvilPhobos</p>
+    <p>Snaply допомагає підготувати фото на документи (наприклад, для лотереї Diversity Visa США) за офіційними вимогами. Його побудовано так, щоб ваші фото й документи лишалися на вашому пристрої.</p>
+
+    <div class="card">
+      <strong>Коротко</strong>
+      <ul>
+        <li>Фото й скани документів обробляються <strong>лише на вашому пристрої</strong> і <strong>ніколи не завантажуються</strong> застосунком.</li>
+        <li><strong>Без реклами, аналітики, стеження й акаунтів.</strong> Ми не продаємо й не передаємо дані.</li>
+        <li>Застосунок використовує інтернет <strong>лише тоді, коли ви самі про це просите</strong>: відкрити офіційне посилання, перевірити оновлення вимог або надіслати відгук.</li>
+      </ul>
+    </div>
+
+    <h2>Які дані обробляються і де</h2>
+    <table>
+      <thead><tr><th>Дані</th><th>Що відбувається</th><th>Залишають пристрій?</th></tr></thead>
+      <tbody>
+        <tr><td>Зображення з камери й обрані фото</td><td>Аналізуються на пристрої (положення обличчя, фон, різкість) детектором облич на пристрої (Google ML Kit, вбудована модель). Підігнане фото зберігається чи надсилається лише після натискання «Зберегти» або «Поділитися». Тимчасові копії в кеші застосунку видаляються, коли ви залишаєте екран перевірки.</td><td><strong>Ні</strong></td></tr>
+        <tr><td>Скани паспорта/документів</td><td>Перевіряються на пристрої (тип файлу, розмір, читабельність) і, на ваше прохання, перетворюються на прийнятний файл. Зберігаються лише в пам'яті; тимчасова копія видаляється одразу.</td><td><strong>Ні</strong></td></tr>
+        <tr><td>Налаштування (мова, тема, обраний документ, камера, автоспуск)</td><td>Зберігаються на пристрої.</td><td>Ні</td></tr>
+        <tr><td>Технічний лог</td><td>Локальний файл із версією застосунку, моделлю пристрою, версією ОС, мовою, темою та технічними подіями/помилками. У ньому немає фото, назв файлів ваших фото, номерів паспортів і текстів відгуків.</td><td>Лише якщо <strong>ви</strong> ним поділитеся</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Коли застосунок використовує інтернет</h2>
+    <ul>
+      <li><strong>Офіційні посилання</strong> — відкриваються у вашому браузері; діє політика конфіденційності відповідного сайту.</li>
+      <li><strong>«Перевірити оновлення профілів»</strong> — завантажує файли вимог із репозиторію проєкту на GitHub. Як і під час будь-якого запиту, GitHub отримує вашу IP-адресу та базові дані запиту. Особисті дані не надсилаються.</li>
+      <li><strong>Зворотний зв'язок</strong> — під час надсилання форми в застосунку до Google Form розробника передаються: тип звернення, ваше повідомлення, email, якщо ви його вкажете (необов'язково), і, якщо позначка «Додати технічний лог» увімкнена, остання частина описаного вище технічного логу. Перед надсиланням можна подивитися, що саме буде передано. Google обробляє ці дані згідно зі своєю політикою конфіденційності.</li>
+      <li><strong>«Поділитися логом»</strong> — відкриває системне меню «Поділитися»; лог потрапляє лише туди, куди ви його надішлете.</li>
+    </ul>
+
+    <h2>Дозволи</h2>
+    <ul>
+      <li><strong>Камера</strong> — щоб зробити фото. Використовується лише поки відкритий екран камери.</li>
+      <li><strong>Інтернет</strong> — лише для перелічених вище дій.</li>
+      <li><strong>Сховище (лише Android 10 і старші)</strong> — щоб зберегти готове фото в галерею.</li>
+    </ul>
+    <p>Застосунок не запитує мікрофон, геолокацію, контакти чи доступ на читання ваших файлів (фото обираються через системний засіб вибору фото).</p>
+
+    <h2>Діти</h2>
+    <p>Snaply призначений для дорослих, які готують офіційні документи. Він свідомо не збирає жодних даних дітей.</p>
+
+    <h2>Ваш вибір</h2>
+    <p>Уся обробка локальна, тож на нашому боці немає збережених даних, до яких можна отримати доступ чи видалити, крім відгуків, які ви самі надіслали. Щоб видалити відгук, надішліть запит через форму зворотного зв'язку з приблизною датою.</p>
+
+    <h2>Не офіційний застосунок</h2>
+    <p class="note">Snaply не пов'язаний із Держдепартаментом США чи будь-яким іншим державним органом. Заявки подаються лише на офіційних сайтах.</p>
+
+    <h2>Зміни</h2>
+    <p>Якщо політика зміниться, нову версію буде опубліковано на цій сторінці з новою датою набуття чинності.</p>
+
+    <h2>Контакти</h2>
+    <p>Форма «Зворотний зв'язок» у застосунку (Налаштування → Про застосунок і підтримка → Зворотний зв'язок) або <a href="https://forms.gle/TZw4MLuqui3Gw4Mx7">ця форма</a>.</p>
+  </article>
+</main>
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang button');
+    function show(lang) {
+      document.querySelectorAll('article').forEach(function (a) { a.hidden = a.dataset.lang !== lang; });
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+      document.documentElement.lang = lang;
+    }
+    buttons.forEach(function (b) { b.addEventListener('click', function () { show(b.dataset.lang); }); });
+    var hash = location.hash.replace('#', '');
+    var browser = (navigator.language || 'en').slice(0, 2);
+    show(hash === 'uk' || hash === 'en' ? hash : (browser === 'uk' || browser === 'ru' ? 'uk' : 'en'));
+  })();
+</script>
+</body>
+</html>
